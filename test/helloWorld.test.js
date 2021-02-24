@@ -5,3 +5,4 @@ it("should return a JSON response", async () => {
   const responseJson = JSON.parse(response.body);
   expect(responseJson.hello).toBe("world");
 });
+
